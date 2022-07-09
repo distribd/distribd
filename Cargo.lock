@@ -608,7 +608,7 @@ dependencies = [
  "log",
  "platform-dirs",
  "prometheus-client",
- "protobuf",
+ "protobuf 3.1.0",
  "raft",
  "rand",
  "regex",
@@ -1819,13 +1819,25 @@ dependencies = [
 ]
 
 [[package]]
+name = "protobuf"
+version = "3.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4ee4a7d8b91800c8f167a6268d1a1026607368e1adc84e98fe044aeb905302f7"
+dependencies = [
+ "bytes",
+ "once_cell",
+ "protobuf-support",
+ "thiserror",
+]
+
+[[package]]
 name = "protobuf-build"
 version = "0.12.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6a7266835d38c38c73b091a24412de1f4b4382a5195fab1ec038161582b03b78"
 dependencies = [
  "bitflags",
- "protobuf",
+ "protobuf 2.27.1",
  "protobuf-codegen",
  "regex",
 ]
@@ -1836,7 +1848,16 @@ version = "2.27.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "aec1632b7c8f2e620343439a7dfd1f3c47b18906c4be58982079911482b5d707"
 dependencies = [
- "protobuf",
+ "protobuf 2.27.1",
+]
+
+[[package]]
+name = "protobuf-support"
+version = "3.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8ca157fe12fc7ee2e315f2f735e27df41b3d97cdd70ea112824dac1ffb08ee1c"
+dependencies = [
+ "thiserror",
 ]
 
 [[package]]
@@ -1857,7 +1878,7 @@ dependencies = [
  "bytes",
  "fxhash",
  "getset",
- "protobuf",
+ "protobuf 2.27.1",
  "raft-proto",
  "rand",
  "slog",
@@ -1874,7 +1895,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7b74f65f886af112d6046c131def44849404757d22f835a0b7ef1aa473e4c96f"
 dependencies = [
  "bytes",
- "protobuf",
+ "protobuf 2.27.1",
  "protobuf-build",
 ]
 
