@@ -3144,9 +3144,9 @@ dependencies = [
 
 [[package]]
 name = "sentry-actix"
-version = "0.31.1"
+version = "0.31.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "74b51b0eec54edc181df5c0a967c21a95179bebc5df95e825843557a345968df"
+checksum = "c080193c1b4528bbd545a436ec09ac6455723eff640924ea7f67ff0508efedbd"
 dependencies = [
  "actix-web",
  "futures-util",
@@ -3181,9 +3181,9 @@ dependencies = [
 
 [[package]]
 name = "sentry-core"
-version = "0.31.1"
+version = "0.31.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "20216140001bbf05895f013abd0dae4df58faee24e016d54cbf107f070bac56b"
+checksum = "fe345c342f17e48b65451f424ce0848405b6b3a84fa0007ba444b84754bf760a"
 dependencies = [
  "once_cell",
  "rand",
@@ -3215,9 +3215,9 @@ dependencies = [
 
 [[package]]
 name = "sentry-types"
-version = "0.31.1"
+version = "0.31.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d7f6959d8cb3a77be27e588eef6ce9a2a469651a556d9de662e4d07e5ace4232"
+checksum = "62d10a5962144f5fb65bb1290551623e6b976f442cb2fcb4e1dfe9fe6f8e8df4"
 dependencies = [
  "debugid",
  "getrandom",
