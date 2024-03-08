@@ -2351,6 +2351,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "object-id"
+version = "0.1.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c587bd1cd63959a8520442afc0f92a875d83deea175c7b48dd9f104a2c5070a9"
+
+[[package]]
 name = "oid-registry"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3440,10 +3446,11 @@ dependencies = [
 
 [[package]]
 name = "simple-pool"
-version = "0.0.16"
+version = "0.0.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9fce59c4ce3b32aad94fc8b57e8217b15017f4c0ccbc91b3c3187c9089879bf9"
+checksum = "9eedccae0b778a8a7e1045f3d76fe936446fd9294fda313564b327b2b230d45a"
 dependencies = [
+ "object-id",
  "parking_lot 0.12.1",
 ]
 
