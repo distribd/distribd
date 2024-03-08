@@ -1119,7 +1119,7 @@ dependencies = [
  "reqwest-retry",
  "ring 0.17.8",
  "rstest",
- "rustls 0.20.9",
+ "rustls 0.22.2",
  "rustls-pemfile",
  "sentry",
  "sentry-actix",
