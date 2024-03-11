@@ -39,7 +39,7 @@ jwt-simple = "0.12.9"
 regex = "1.8.1"
 jsonschema = { version = "0.17", default-features = false }
 chrono = {version = "0.4", features=["serde"]}
-prometheus-client = "0.22.1"
+prometheus-client = "0.22.2"
 figment = { version="0.10.8", features=["yaml", "env"]}
 platform-dirs = "0.3.0"
 rand = "0.8.5"
