@@ -1131,7 +1131,7 @@ dependencies = [
  "ring 0.17.8",
  "rstest",
  "rustls 0.20.9",
- "rustls-pemfile 1.0.4",
+ "rustls-pemfile 2.1.2",
  "sentry",
  "sentry-actix",
  "serde",
