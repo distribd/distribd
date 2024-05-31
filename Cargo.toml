@@ -54,7 +54,7 @@ reqwest-middleware = "0.2.5"
 sentry = { version="0.33.0", default-features=false, features=["backtrace", "contexts", "debug-images", "panic", "rustls"] }
 sentry-actix = "0.32.3"
 # We don't want 0.21 until actix updates
-rustls = "~0.20.9"
+rustls = "~0.22.4"
 rustls-pemfile = "1.0.4"
 notify = "6.1.1"
 futures = "0.3"
