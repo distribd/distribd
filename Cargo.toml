@@ -24,7 +24,7 @@ actix-web = { version="4.6.0", features=["rustls-0_23"]}
 actix-files = "0.6.6"
 async-trait = "0.1.80"
 clap = { version = "4.5.7", features = ["derive", "env"] }
-reqwest = { version = "0.12.4", default-features = false, features = ["json", "rustls-tls", "trust-dns"] }
+reqwest = { version = "0.12.5", default-features = false, features = ["json", "rustls-tls", "trust-dns"] }
 tokio = { version = "1.38", default-features = false, features = ["sync"] }
 tracing = "0.1.40"
 tracing-futures = "0.2.5"
