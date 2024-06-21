@@ -19,7 +19,7 @@ path = "src/bin/main.rs"
 bench = false
 
 [dependencies]
-openraft = { version="=0.9.11", features=["serde"]}
+openraft = { version="=0.9.13", features=["serde"]}
 actix-web = { version="4.6.0", features=["rustls-0_23"]}
 actix-files = "0.6.6"
 async-trait = "0.1.80"
