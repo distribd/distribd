@@ -71,7 +71,7 @@ maplit = "1.0.2"
 tempfile = { version = "3.10.1" }
 rstest = "0.21.0"
 lazy_static = "1.5.0"
-simple-pool = "0.0.17"
+simple-pool = "0.0.18"
 tracing-test = { version = "0.2.5", features = ["no-env-filter"] }
 criterion = { version="0.5", features=["async_tokio"] }
 
